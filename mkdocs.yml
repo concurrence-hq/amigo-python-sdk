@@ -1,8 +1,8 @@
 site_name: Amigo Python SDK
 site_description: API reference for the Amigo AI Python SDK
-site_url: https://amigo-ai.github.io/amigo-python-sdk/
-repo_url: https://github.com/amigo-ai/amigo-python-sdk
-repo_name: amigo-ai/amigo-python-sdk
+site_url: https://concurrence-hq.github.io/amigo-python-sdk/
+repo_url: https://github.com/concurrence-hq/amigo-python-sdk
+repo_name: concurrence-hq/amigo-python-sdk
 edit_uri: edit/main/docs/
 
 theme:

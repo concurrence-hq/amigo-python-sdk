@@ -27,12 +27,12 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/amigo-ai/amigo-python-sdk"
+Homepage = "https://github.com/concurrence-hq/amigo-python-sdk"
 Documentation = "https://docs.amigo.ai"
-APIReference = "https://amigo-ai.github.io/amigo-python-sdk/"
-Repository = "https://github.com/amigo-ai/amigo-python-sdk"
-Issues = "https://github.com/amigo-ai/amigo-python-sdk/issues"
-Changelog = "https://github.com/amigo-ai/amigo-python-sdk/blob/main/CHANGELOG.md"
+APIReference = "https://concurrence-hq.github.io/amigo-python-sdk/"
+Repository = "https://github.com/concurrence-hq/amigo-python-sdk"
+Issues = "https://github.com/concurrence-hq/amigo-python-sdk/issues"
+Changelog = "https://github.com/concurrence-hq/amigo-python-sdk/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = [
