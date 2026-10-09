@@ -8420,6 +8420,8 @@ class LLMType(Enum):
     openai_gpt_5_6_luna = 'openai_gpt-5.6-luna'
     google_gemini_2_5_pro = 'google_gemini-2.5-pro'
     google_gemini_2_5_flash = 'google_gemini-2.5-flash'
+    google_gemini_3_5_flash = 'google_gemini-3.5-flash'
+    google_gemini_3_5_flash_lite = 'google_gemini-3.5-flash-lite'
 
 
 class MP3UserMessageAudioConfig(BaseModel):
