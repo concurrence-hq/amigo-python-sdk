@@ -1,6 +1,9 @@
 """Regressions for response and request shapes in the current Classic contract."""
 
+import pytest
+
 from amigo_sdk.generated.model import (
+    LLMConfigInput,
     LLMType,
     MetricCreateMetricRequest,
     OrganizationCreateAgentVersionResponse,
@@ -31,3 +34,11 @@ def test_metric_creation_accepts_initial_version_contract():
 
 def test_current_model_identifier_can_be_deserialized():
     assert LLMType("openai_gpt-5.6-sol").value == "openai_gpt-5.6-sol"
+
+
+@pytest.mark.parametrize(
+    "llm_name", ["google_gemini-3.5-flash", "google_gemini-3.5-flash-lite"]
+)
+def test_llm_config_accepts_gemini_3_5_ids(llm_name):
+    config = LLMConfigInput.model_validate({"llm_name": llm_name})
+    assert config.model_dump(mode="json")["llm_name"] == llm_name
