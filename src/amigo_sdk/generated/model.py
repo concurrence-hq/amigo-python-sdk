@@ -8981,7 +8981,7 @@ class StrippedNonemptyStringAZAZ09(RootModel[str]):
     root: str = Field(..., min_length=1, pattern='^[a-z_][a-z0-9_]+$')
 
 
-class StrippedNonemptyStringAZAZ09LambdaAt0xffff608df480(StrippedNonemptyStringAZAZ09):
+class StrippedNonemptyStringAZAZ09LambdaAt0xffff78adb480(StrippedNonemptyStringAZAZ09):
     pass
 
 
@@ -12014,8 +12014,8 @@ class GetConversationMessagesParametersQuery(BaseModel):
     )
     message_type: list[MessageType] | None = Field(
         [
-            MessageType.user_message,
             MessageType.agent_message,
+            MessageType.user_message,
             MessageType.external_event,
         ],
         description='The type of messages to retrieve.',
@@ -15447,7 +15447,7 @@ class UserCreateInvitedUserRequest(BaseModel):
         title='Role Name',
     )
     nonsensitive_user_variables: (
-        dict[StrippedNonemptyStringAZAZ09LambdaAt0xffff608df480, str] | None
+        dict[StrippedNonemptyStringAZAZ09LambdaAt0xffff78adb480, str] | None
     ) = Field(
         {},
         description='The nonsensitive user variables to provide to the tool during invocation.',
