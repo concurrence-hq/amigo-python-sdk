@@ -8418,8 +8418,9 @@ class LLMType(Enum):
     openai_gpt_5_6_sol = 'openai_gpt-5.6-sol'
     openai_gpt_5_6_terra = 'openai_gpt-5.6-terra'
     openai_gpt_5_6_luna = 'openai_gpt-5.6-luna'
-    google_gemini_2_5_pro = 'google_gemini-2.5-pro'
-    google_gemini_2_5_flash = 'google_gemini-2.5-flash'
+    openai_gpt_6_luna = 'openai_gpt-6-luna'
+    google_gemini_3_5_flash = 'google_gemini-3.5-flash'
+    google_gemini_3_5_flash_lite = 'google_gemini-3.5-flash-lite'
 
 
 class MP3UserMessageAudioConfig(BaseModel):
@@ -8980,7 +8981,7 @@ class StrippedNonemptyStringAZAZ09(RootModel[str]):
     root: str = Field(..., min_length=1, pattern='^[a-z_][a-z0-9_]+$')
 
 
-class StrippedNonemptyStringAZAZ09LambdaAt0xffff509bfcc0(StrippedNonemptyStringAZAZ09):
+class StrippedNonemptyStringAZAZ09LambdaAt0xffff608df480(StrippedNonemptyStringAZAZ09):
     pass
 
 
@@ -12014,8 +12015,8 @@ class GetConversationMessagesParametersQuery(BaseModel):
     message_type: list[MessageType] | None = Field(
         [
             MessageType.user_message,
-            MessageType.external_event,
             MessageType.agent_message,
+            MessageType.external_event,
         ],
         description='The type of messages to retrieve.',
         title='Message Type',
@@ -15446,7 +15447,7 @@ class UserCreateInvitedUserRequest(BaseModel):
         title='Role Name',
     )
     nonsensitive_user_variables: (
-        dict[StrippedNonemptyStringAZAZ09LambdaAt0xffff509bfcc0, str] | None
+        dict[StrippedNonemptyStringAZAZ09LambdaAt0xffff608df480, str] | None
     ) = Field(
         {},
         description='The nonsensitive user variables to provide to the tool during invocation.',
