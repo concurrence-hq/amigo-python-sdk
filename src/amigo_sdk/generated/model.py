@@ -8419,6 +8419,7 @@ class LLMType(Enum):
     openai_gpt_5_6_terra = 'openai_gpt-5.6-terra'
     openai_gpt_5_6_luna = 'openai_gpt-5.6-luna'
     openai_gpt_6_luna = 'openai_gpt-6-luna'
+    openai_decisions_gpt_6_luna = 'openai_decisions_gpt-6-luna'
     google_gemini_3_5_flash = 'google_gemini-3.5-flash'
     google_gemini_3_5_flash_lite = 'google_gemini-3.5-flash-lite'
 
