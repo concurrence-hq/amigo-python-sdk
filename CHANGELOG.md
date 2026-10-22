@@ -11,25 +11,25 @@
 ## [2.0.1] - 2026-09-08
 
 ### Bug Fixes
-- repair packaging and secure reproducible release tooling ([#59](https://github.com/amigo-ai/amigo-python-sdk/pull/59))
+- repair packaging and secure reproducible release tooling ([#59](https://github.com/concurrence-hq/amigo-python-sdk/pull/59))
 
 ## [2.0.0] - 2026-09-08
 
 ### Bug Fixes
-- align Classic models with the current public contract ([#58](https://github.com/amigo-ai/amigo-python-sdk/pull/58))
+- align Classic models with the current public contract ([#58](https://github.com/concurrence-hq/amigo-python-sdk/pull/58))
 
 ### Documentation
-- point classic SDK links at live docs routes ([#53](https://github.com/amigo-ai/amigo-python-sdk/pull/53))
-- sharpen the classic sdk front door ([#52](https://github.com/amigo-ai/amigo-python-sdk/pull/52))
+- point classic SDK links at live docs routes ([#53](https://github.com/concurrence-hq/amigo-python-sdk/pull/53))
+- sharpen the classic sdk front door ([#52](https://github.com/concurrence-hq/amigo-python-sdk/pull/52))
 
 ### CI
-- skip integration when secrets are unavailable ([#51](https://github.com/amigo-ai/amigo-python-sdk/pull/51))
+- skip integration when secrets are unavailable ([#51](https://github.com/concurrence-hq/amigo-python-sdk/pull/51))
 
 ### Chores
-- run mypy on the primary Python target ([#50](https://github.com/amigo-ai/amigo-python-sdk/pull/50))
-- move docs deploy to node24 runtime ([#48](https://github.com/amigo-ai/amigo-python-sdk/pull/48))
-- remove transitive action runtime warnings ([#46](https://github.com/amigo-ai/amigo-python-sdk/pull/46))
-- harden release and CI workflows ([#44](https://github.com/amigo-ai/amigo-python-sdk/pull/44))
+- run mypy on the primary Python target ([#50](https://github.com/concurrence-hq/amigo-python-sdk/pull/50))
+- move docs deploy to node24 runtime ([#48](https://github.com/concurrence-hq/amigo-python-sdk/pull/48))
+- remove transitive action runtime warnings ([#46](https://github.com/concurrence-hq/amigo-python-sdk/pull/46))
+- harden release and CI workflows ([#44](https://github.com/concurrence-hq/amigo-python-sdk/pull/44))
 
 ## [1.3.1] - 2026-04-19
 
@@ -43,12 +43,12 @@
 - refresh public repo presentation
 
 ### Other
-- Skip model regeneration for manual releases by default ([#43](https://github.com/amigo-ai/amigo-python-sdk/pull/43))
-- Broaden generator compatibility field matching ([#42](https://github.com/amigo-ai/amigo-python-sdk/pull/42))
-- Harden generated-model compatibility patches ([#41](https://github.com/amigo-ai/amigo-python-sdk/pull/41))
-- Fix classic Python SDK front door and CI drift ([#40](https://github.com/amigo-ai/amigo-python-sdk/pull/40))
-- Merge pull request [#39](https://github.com/amigo-ai/amigo-python-sdk/pull/39) from amigo-ai/fix/readme-diagrams-from-gitbook
-- Merge pull request [#38](https://github.com/amigo-ai/amigo-python-sdk/pull/38) from amigo-ai/polish/python-front-door-v2
+- Skip model regeneration for manual releases by default ([#43](https://github.com/concurrence-hq/amigo-python-sdk/pull/43))
+- Broaden generator compatibility field matching ([#42](https://github.com/concurrence-hq/amigo-python-sdk/pull/42))
+- Harden generated-model compatibility patches ([#41](https://github.com/concurrence-hq/amigo-python-sdk/pull/41))
+- Fix classic Python SDK front door and CI drift ([#40](https://github.com/concurrence-hq/amigo-python-sdk/pull/40))
+- Merge pull request [#39](https://github.com/concurrence-hq/amigo-python-sdk/pull/39) from concurrence-hq/fix/readme-diagrams-from-gitbook
+- Merge pull request [#38](https://github.com/concurrence-hq/amigo-python-sdk/pull/38) from concurrence-hq/polish/python-front-door-v2
 
 ## [1.3.0] - 2026-03-18
 
@@ -57,11 +57,11 @@
 ## [1.1.0] - 2026-03-17
 
 ### Bug Fixes
-- unwrap nested ConversationEvent in SDK resource layer ([#35](https://github.com/amigo-ai/amigo-python-sdk/pull/35))
-- resolve integration test failures ([#34](https://github.com/amigo-ai/amigo-python-sdk/pull/34))
-- update integration test for plural resource property ([#33](https://github.com/amigo-ai/amigo-python-sdk/pull/33))
-- add resources/__init__.py for mkdocstrings resolution ([#32](https://github.com/amigo-ai/amigo-python-sdk/pull/32))
-- resolve CI doc build failure and update CLAUDE.md ([#31](https://github.com/amigo-ai/amigo-python-sdk/pull/31))
+- unwrap nested ConversationEvent in SDK resource layer ([#35](https://github.com/concurrence-hq/amigo-python-sdk/pull/35))
+- resolve integration test failures ([#34](https://github.com/concurrence-hq/amigo-python-sdk/pull/34))
+- update integration test for plural resource property ([#33](https://github.com/concurrence-hq/amigo-python-sdk/pull/33))
+- add resources/__init__.py for mkdocstrings resolution ([#32](https://github.com/concurrence-hq/amigo-python-sdk/pull/32))
+- resolve CI doc build failure and update CLAUDE.md ([#31](https://github.com/concurrence-hq/amigo-python-sdk/pull/31))
 
 All notable changes to the Amigo Python SDK will be documented in this file.
 
@@ -120,4 +120,4 @@ This project follows [Semantic Versioning](https://semver.org/) and the format i
 
 ---
 
-> **Note**: Earlier versions were auto-released from OpenAPI spec changes. See [GitHub Releases](https://github.com/amigo-ai/amigo-python-sdk/releases) for the full history.
+> **Note**: Earlier versions were auto-released from OpenAPI spec changes. See [GitHub Releases](https://github.com/concurrence-hq/amigo-python-sdk/releases) for the full history.
