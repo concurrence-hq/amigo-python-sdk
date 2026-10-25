@@ -9663,6 +9663,11 @@ class ConversationCreateConversationRequest(BaseModel):
         title='Tags',
         validate_default=True,
     )
+    is_test: bool | None = Field(
+        False,
+        description="Whether the conversation is test traffic, such as an automated test harness's session, rather than a real user's. It can't be changed once the conversation is created.\n\nA test conversation gets no post-session analysis when it finishes: no memory extraction, user models or metrics, and no post-processing webhooks, so the user's\nlater conversations recall nothing from it. Metrics can still be evaluated on demand with [`EvaluateMetrics`](evaluate-metrics). Its usage is tagged as test traffic.\nEverything else runs as in any other conversation, its tools included, so a tool that acts on an external system still does.",
+        title='Is Test',
+    )
 
 
 class ConversationGenerateConversationStarterRequest(BaseModel):
