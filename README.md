@@ -11,17 +11,17 @@
   ·
   <a href="https://docs.amigo.ai/developer-guide/classic-api/sdks">Developer Guide</a>
   ·
-  <a href="https://amigo-ai.github.io/amigo-python-sdk/">API Reference</a>
+  <a href="https://concurrence-hq.github.io/amigo-python-sdk/">API Reference</a>
   ·
-  <a href="https://github.com/amigo-ai/amigo-python-sdk/tree/main/examples">Examples</a>
+  <a href="https://github.com/concurrence-hq/amigo-python-sdk/tree/main/examples">Examples</a>
   ·
-  <a href="https://github.com/amigo-ai/amigo-python-sdk/blob/main/CHANGELOG.md">Changelog</a>
+  <a href="https://github.com/concurrence-hq/amigo-python-sdk/blob/main/CHANGELOG.md">Changelog</a>
 </p>
 
 <p align="center">
   <a href="https://pypi.org/project/amigo_sdk/"><img src="https://img.shields.io/pypi/v/amigo_sdk?logo=pypi&label=PyPI" alt="PyPI version" /></a>
-  <a href="https://github.com/amigo-ai/amigo-python-sdk/actions/workflows/test.yml"><img src="https://github.com/amigo-ai/amigo-python-sdk/actions/workflows/test.yml/badge.svg" alt="CI" /></a>
-  <a href="https://codecov.io/gh/amigo-ai/amigo-python-sdk"><img src="https://codecov.io/gh/amigo-ai/amigo-python-sdk/graph/badge.svg?token=1A7KVPV9ZR" alt="codecov" /></a>
+  <a href="https://github.com/concurrence-hq/amigo-python-sdk/actions/workflows/test.yml"><img src="https://github.com/concurrence-hq/amigo-python-sdk/actions/workflows/test.yml/badge.svg" alt="CI" /></a>
+  <a href="https://codecov.io/gh/concurrence-hq/amigo-python-sdk"><img src="https://codecov.io/gh/concurrence-hq/amigo-python-sdk/graph/badge.svg?token=1A7KVPV9ZR" alt="codecov" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License" /></a>
 </p>
 
@@ -52,9 +52,9 @@ The Platform API is where new workspace-scoped capabilities land first, but the 
 | --- | --- |
 | Product overview and deployment context | [docs.amigo.ai](https://docs.amigo.ai/) |
 | Integration guidance and developer docs | [Developer Guide](https://docs.amigo.ai/developer-guide/classic-api/sdks) |
-| Generated API reference | [amigo-ai.github.io/amigo-python-sdk](https://amigo-ai.github.io/amigo-python-sdk/) |
-| Runnable examples | [examples/](https://github.com/amigo-ai/amigo-python-sdk/tree/main/examples) |
-| Release history | [CHANGELOG.md](https://github.com/amigo-ai/amigo-python-sdk/blob/main/CHANGELOG.md) |
+| Generated API reference | [concurrence-hq.github.io/amigo-python-sdk](https://concurrence-hq.github.io/amigo-python-sdk/) |
+| Runnable examples | [examples/](https://github.com/concurrence-hq/amigo-python-sdk/tree/main/examples) |
+| Release history | [CHANGELOG.md](https://github.com/concurrence-hq/amigo-python-sdk/blob/main/CHANGELOG.md) |
 
 The docs site remains the primary reference. The repo-local examples stay close to the shipped package surface and the published package is validated in CI.
 
@@ -173,4 +173,4 @@ except RateLimitError as error:
 
 ## Support
 
-Use the [issue tracker](https://github.com/amigo-ai/amigo-python-sdk/issues) for bugs and feature requests. For responsible disclosure, see [SECURITY.md](https://github.com/amigo-ai/amigo-python-sdk/blob/main/SECURITY.md).
+Use the [issue tracker](https://github.com/concurrence-hq/amigo-python-sdk/issues) for bugs and feature requests. For responsible disclosure, see [SECURITY.md](https://github.com/concurrence-hq/amigo-python-sdk/blob/main/SECURITY.md).
